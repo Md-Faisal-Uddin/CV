@@ -30,6 +30,7 @@ body {
     width: 800px;
     height: auto;
     display: flex;
+    flex-wrap: nowrap;
     margin: 50px auto;
 }
 
