@@ -32,6 +32,8 @@ body {
     display: flex;
     flex-wrap: nowrap;
     margin: 50px auto;
+    border: 3px solid #b4ab24;
+    border-radius: 5px;
 }
 
 .resume_left {
@@ -40,8 +42,10 @@ body {
 }
 
 .resume_profile {
-    width: 100%;
+    width: 95%;
     height: 280px;
+    align-items: center;
+    margin: 5px auto;
     
     
 }
@@ -121,7 +125,7 @@ body {
     color: #b1eaff;
 }
 .data a:hover{
-    color: rgb(238, 222, 131);
+    color: goldenrod;
     text-decoration: underline;
 }
 .resume_left .resume_skills ul li {
